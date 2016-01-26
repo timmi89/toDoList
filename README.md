@@ -1,12 +1,12 @@
 # addressBook
 
-##### Epicodus Section:  JavaScript OO - Address Book
+##### Epicodus Section:  JavaScript OO - To Do List
 
 #### By Jon and Timmi
 
 ## Description
 
-This application is a demonstration of constructors and prototypes using JavaScript to create a simple Address Book app.
+This application is a demonstration of constructors and prototypes using JavaScript to create a simple To Do List app.
 
 ## Setup
 

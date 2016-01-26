@@ -1,15 +1,14 @@
-describe('Contact', function() {
+describe('To Do List', function() {
 
-  it("creates a new contact with the given specifications", function() {
-    var testContact = new Contact("Rita","Moreno");
-    expect(testContact.firstName).to.equal("Rita");
-    expect(testContact.lastName).to.equal("Moreno");
-    expect(testContact.addresses).to.eql([]);
+  it("adds the name of a task to the to do list", function() {
+    var testTask = new Task("Homework", "Read pages 1-3");
+    expect(testTask.name).to.equal("Homework");
+    expect(testTask.description).to.equal("Read pages 1-3");
   });
 
-  it("adds the full Name to a contact", function() {
-    var testContact = new Contact("Bill","Clinton");
-    expect(testContact.fullName()).to.equal("Bill Clinton");
-  });
+  // it("adds the full Name to a contact", function() {
+  //   var testContact = new Contact("Bill","Clinton");
+  //   expect(testContact.fullName()).to.equal("Bill Clinton");
+  // });
 
 });

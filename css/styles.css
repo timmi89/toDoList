@@ -1,4 +1,4 @@
-#show-contact {
+/*#show-contact {
   display: none;
 }
 
@@ -9,4 +9,8 @@
 
 .contact:hover {
   text-decoration: underline;
+}*/
+
+checked  {
+  text-decoration: line-through;
 }
